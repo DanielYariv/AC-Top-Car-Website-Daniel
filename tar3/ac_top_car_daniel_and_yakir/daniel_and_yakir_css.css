@@ -1,0 +1,111 @@
+﻿body{
+    direction:rtl;
+}
+#header .logo_secondery img {
+    max-height: 35px;
+}
+
+#hero h1 span {
+    color: #106eea;
+}
+
+
+.box_change_font_weight span {
+    font-weight: bold;
+}
+
+.icon-box {
+    width: 100%;
+    height: 100%;
+}
+
+.link_color_change {
+    color: #444444;
+}
+#special_h3_about_section{
+    margin-bottom:5px;
+}
+.services .icon-box:hover h4 {
+    color: #106eea;
+}
+
+.services .icon-box .icon i {
+    font-size: 50px;
+}
+
+.waze_logo {
+    width: 8%;
+}
+
+.waze_logo_contact, .facebook_logo_contact {
+    width: 6%;
+}
+
+#eldan_logo {
+    max-width: 30%;
+}
+
+.portfolio_link_center {
+    display: flex;
+    justify-content: center;
+}
+
+/* שינוי תצוגות כדי שבכל גדלי הטלפונים האפשריים יראו את הדר והירו כמו שצריך גם שהופכים את המכשיר על הצד*/
+@media only screen and (min-width:576px) {
+    #hero .btn-watch-video i {
+        font-size: 40px;
+    }
+
+    .watch_video_change {
+        font-size: 22px;
+        margin-right: 4px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #header .logo_secondery img {
+        max-height: 20px;
+    }
+
+    #hero .btn-watch-video i {
+        font-size: 36px;
+    }
+
+    .watch_video_change {
+        font-size: 15px;
+        margin-right: 4px;
+    }
+}
+@media only screen and (min-width:840px) and (max-width:916px) {
+    #hero .hero-img img  {
+        width:40%;
+        position:relative;
+        right:180px;
+        top:100px;
+    }
+    
+    #hero h1 {
+        font-size: 30px;
+    }
+
+}
+@media only screen and (min-width:540px) and (max-width:740px) {
+    #hero{
+        height:120vh;
+    }
+    #hero .hero-img img {
+        width: 43%;
+        position: relative;
+        right: 160px;
+        top: 90px;
+    }
+
+    #hero h1 {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width:330px) {
+    #header .logo img {
+        max-height:30px;
+    }
+}
